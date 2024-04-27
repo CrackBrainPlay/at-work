@@ -1,0 +1,44 @@
+.content {
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+}
+
+.img {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #90909083;
+}
+
+.item {
+    display: grid;
+    justify-items: center;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+
+}
+
+.item img :hover {
+    color: #AE0018;
+    box-shadow: 2px 2px 3px #90909083;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.activeLink {
+    text-decoration: none;
+    color: #AE0018;
+}

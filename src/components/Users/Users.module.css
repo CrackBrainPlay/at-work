@@ -1,0 +1,94 @@
+.box {
+    display: grid;
+}
+
+.selectedPage {
+    font-weight: 600;
+}
+
+/* .active {
+    max-width: 1160px;
+    margin: 0 center;
+}
+
+.name {
+    max-width: 1160px;
+    margin: 0 center;
+    padding-bottom: 16px;
+    font-weight: 600;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #DADADA;
+} */
+
+.img {
+    height: 120px;
+    width: 112px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.userRow {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.userCard {
+    width: calc(33.33% - 10px);
+    /* Отнимаем от ширины 10px для учета промежутков между карточками */
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    background-color: #FDFDFD;
+    gap: 20px;
+}
+
+.userNameCase {
+    display: flex;
+    flex-direction: row;
+}
+
+.userNameBtn {
+    display: flex;
+    margin-left: auto;
+}
+
+.userData {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.userInfo {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+
+}
+
+.userName {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    color: #22A0BC;
+    flex-direction: row;
+}
+
+.userLocation {
+    margin-top: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9C9C9C;
+}

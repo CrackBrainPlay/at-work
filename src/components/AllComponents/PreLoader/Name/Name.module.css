@@ -1,0 +1,9 @@
+.content {
+    /* background-color: aqua; */
+    max-width: 1160px;
+    margin: 0 center;
+    padding-bottom: 16px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #DADADA;
+}

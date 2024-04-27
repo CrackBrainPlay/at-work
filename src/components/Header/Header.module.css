@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    background-color: #FDFDFD;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 54px;
+
+}
+
+/* .header img {} */
+
+.loginBlock {
+    margin-left: auto;
+}
+
+.loginBlock a {
+    justify-content: end;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.loginBlock a:hover {
+    color: #AE0018;
+}

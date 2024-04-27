@@ -1,0 +1,16 @@
+.sideBar {
+    /* background-color: #1b3bb9; */
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}

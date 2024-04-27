@@ -1,0 +1,48 @@
+.content {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 2fr 8fr;
+    /* grid-template-rows: 60px; */
+    /* grid-template-columns: minmax(110px, auto); */
+    /* background-color: rgb(255, 68, 0); */
+
+}
+
+.img {
+    display: grid;
+    grid-column: 1/2;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px #90909083;
+}
+
+.item {
+    display: grid;
+    grid-column: 2/3;
+    padding: 10px;
+    align-self: center;
+    justify-items: start;
+
+}
+
+/* .item :hover {
+     color: #AE0018; 
+    box-shadow: 2px 2px 3px #90909083;
+} */
+
+/* .item a {
+    color: #000000;
+    text-decoration: none;
+} */
+
+.activeLink {
+    color: #AE0018;
+}
+
+/* .item a:hover {
+    color: #AE0018;
+} */
