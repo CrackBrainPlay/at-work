@@ -31,6 +31,7 @@
 .user {
     display: flex;
     flex-direction: column;
+    /* width: 360px; */
     gap: 32px;
 }
 
@@ -43,15 +44,19 @@
 
 .userCard {
     width: calc(33.33% - 10px);
+    /* width: 360px; */
     /* Отнимаем от ширины 10px для учета промежутков между карточками */
     border-radius: 16px;
     padding: 24px;
     display: flex;
     flex-direction: row;
+    width: 360px;
+    height: 168px;
     /* border: 1px solid #ccc; */
     box-sizing: border-box;
     background-color: #FDFDFD;
     gap: 20px;
+
 }
 
 .userNameCase {
@@ -84,6 +89,8 @@
     display: flex;
     color: #22A0BC;
     flex-direction: row;
+    max-width: 148px;
+    text-overflow: ellipsis;
 }
 
 .userLocation {

@@ -50,6 +50,8 @@
     display: grid;
     margin-top: 28px;
     margin-bottom: 28px;
+    /* width: 360px; */
+    /* height: 168px; */
     /* grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(3, auto); */
 }
