@@ -9,6 +9,8 @@ const Header = (props) => {
             <img src='logo_at_work.png' alt='' />
             <div className={style.loginBlock}>
                 {(props.isAuth) ? (<NavLink to={'/login'}>{props.login}</NavLink>) : 'Not Login'}
+                {/* sadad */}
+                {/* sadad */}
             </div>
         </header>
     );
